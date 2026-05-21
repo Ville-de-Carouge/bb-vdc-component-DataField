@@ -1,0 +1,51 @@
+{
+  "type": "component",
+  "metadata": {
+    "svelteMajor": 5
+  },
+  "schema": {
+    "name": "bb-vdc-component-DataField",
+    "friendlyName": "DataField",
+    "description": "Display data with two labels (field name & field value)",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "key": "datafield_name",
+        "label": "Field Name",
+        "defaultValue": "DATAFIELD NAME" 
+      },
+      {
+        "type": "color",
+        "key": "datafield_name_color",
+        "label": "Color",
+        "defaultValue": "var(--spectrum-global-color-gray-400)"
+      },
+      {
+        "type": "text",
+        "key": "datafield_value",
+        "label": "Field Value",
+        "defaultValue": "Datafield value"
+      },
+      {
+        "type": "color",
+        "key": "datafield_value_color",
+        "label": "Color",
+        "defaultValue": "var(--spectrum-global-color-gray-900)"
+      },
+      {
+        "type": "number",
+        "key": "font_size",
+        "label": "Text size (px)",
+        "defaultValue": 14
+      },
+      {
+        "type": "select",
+        "key": "text_alignment",
+        "label": "Text Alignment",
+        "options": ["Start","Center","End"],
+        "defaultValue": "Start"
+      } 
+    ]
+  }
+}
